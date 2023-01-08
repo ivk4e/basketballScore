@@ -1,0 +1,75 @@
+html {
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(27, 36, 74, 1);
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: rgba(238, 238, 238, 1);
+    text-align: center;
+    gap: 100px;
+}
+
+.homeSide, 
+.guestSide {
+    width: 288px;
+    padding: 16px;
+}
+
+h3 {
+    font-family: "Verdana", sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Cursed Timer ULiL Regular', sans-serif;
+    font-size: 90px;
+    text-align: center;
+    color: rgba(249, 79, 109, 1);;
+    padding-top: 2.88px;
+}
+
+.buttons { 
+    display: flex;
+    gap: 6.4px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.one-btn,
+.two-btn,
+.three-btn,
+.reset-btn {
+    border: 0;
+    font-family: 'Cursed Timer ULiL';
+    padding: 10px;
+    cursor: center;
+    background-color: transparent;
+    color: rgba(154, 171, 216, 1);
+    border: 2px solid rgba(154, 171, 216, 1);
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.reset-btn {
+    letter-spacing: 5px;
+}
+
+.buttons > button:active {
+    transform: scale(0.76);
+}
